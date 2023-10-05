@@ -9,7 +9,7 @@ const client = new MongoClient(uri);
 
 const app = express();
 
-app.use(express.static("../Front"));
+app.use(express.static("../client"));
 app.use(express.json());
 
 const PORT = 5600;
